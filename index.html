@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="dark">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="main.css">
     <title>tailwind-Assignment</title>
 </head>
-<body class="bg-[#FAFAFA]">
+<body class="  bg-[#FAFAFA]">
    <!---header strat-->
-   <header class="bg-[#FFFFFF] shadow-sm p-1 md:p-3">
+   <header class=" shadow-sm p-1 md:p-3">
     <nav class="flex justify-between items-center">
        <img class="md:w-[138px] md:h-[48px] w-28 h-8 cursor-pointer" src="assets/logo.png" alt="">
        <ul class="flex gap-3 md:gap-5 transition-all hidden md:flex ">
@@ -67,7 +67,7 @@
    </section>
    <!--wark section-->
 
- <section class="flex p-2 md:p-[30px] flex-col md:flex-row items-center justify-between bg-[#fff] shadow-lg">
+ <section class="flex p-2 md:p-[30px] flex-col md:flex-row items-center justify-between  shadow-lg">
     <p class="text-2xl md:text-xl border-r-2 border-gray-500 pr-7 md:h-28">Pave your path to career success by<br> gaining  a  professional  Google<br> certificate with the support of C4U</p>
     <img src="assets/Google (1).png" alt="" class=" md:border-r-2 border-gray-500 pr-7 md:h-28">
     <img src="assets/Work & Pensions (1).png" alt="" class=" md:border-r-2 border-gray-500 pr-7 md:h-28">
@@ -75,7 +75,7 @@
  </section>
  <!--What you will learn  section-->
  <section class="p-[30px] md:p-[100px] grid grid-flow-row md:grid-flow-col gap-3 md:gap-8">
-   <div class="bg-[#ffff] shadow-xl p-5 rounded-xl">
+   <div class=" shadow-xl p-3 h-[450px] rounded-xl col-span-6">
     <h3 class="font-semibold text-lg md:text-xl py-4 border-b md:border-b-4 border-[#F9CCC7]">What you will learn</h3>
    <div class="flex flex-col gap-5 md:gap-12 py-5">
     <div class="flexs"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
@@ -84,11 +84,11 @@
     <div class="flexs"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Learn to use systems including Linux, Domain Name Systems, Command-Line Interface, and Binary Code</p></div>
    </div>
    </div>
-   <div class="bg-[#ffff] shadow-xl p-5 rounded-xl">
-    <img src="assets/social.png" alt="" class="w-{100%} h-auto">
+   <div class=" shadow-xl p-3 h-[450px] rounded-xl col-span-6">
+    <img src="assets/social.png" alt="" class="md:w-[430px]">
     <div class="py-2">
         <h3 class="text-lg md:text-xl font-bold border-b md:border-b-4 border-[#F9CCC7] pb-3">Skills you will gain </h3>
-      <div class="py-5 ">
+      <div class="py-3 ">
        <div class="flex gap-5">
         
         <span class="rings">Debugging</span> <span class="rings">Customer Service</span> <span class="rings">Customer Support</span><br>
@@ -106,8 +106,8 @@
    </div>
  </section>
   <!--job section-->
-  <section class="p-[30px] md:p-[100px] grid grid-flow-row md:grid-flow-col gap-4 md:gap-6">
-    <div class="col-span-6 bg-[#ffff] shadow-xl p-5 rounded-xl">
+  <section class="p-[30px] md:p-[100px] grid grid-flow-row md:grid-flow-col gap-4 md:gap-6 ">
+    <div class="col-span-6  shadow-xl  px-16 rounded-xl ">
         <h3 class="font-semibold text-lg md:text-xl pb-5 border-b border-[#F9CCC7] md:border-b-4">Jobs Assocaited with Certificate </h3>
        <div class="my-3 md:my-5">
         <div class="job-flex">
@@ -133,7 +133,24 @@
        </div>
     </div>
     <div >
-        <img src="assets/job.png" alt="" class="w-[100%] h-auto object-cover" >
+        <img src="assets/job.png" alt="" class=" object-cover" >
+    </div>
+  </section>
+
+  <!--crouse section-->
+  <section class="flex p-[30px] md:p-[100px] flex-col md:flex-row ">
+   <div>
+    <h1 class="font-semibold text-[35px] md:text-[50px]">There are 5 Courses in this <br> Professional Certificate</h1>
+    <div class="py-20 flex gap-5 flex-col md:flex-row">
+        <span class="tag bg-[#00FF84]">Course  1 </span>
+        <span class="tag">Course  2 </span>
+        <span class="tag">Course  3 </span>
+        <span class="tag">Course  4 </span>
+        <span class="tag">Course  5 </span>
+    </div>
+   </div>
+    <div>
+        <img src="assets/crouse.png" alt="">
     </div>
   </section>
 </body>
