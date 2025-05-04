@@ -14,4 +14,15 @@
     .text-size{
         @apply text-lg md:text-xl font-medium ;
     }
+
+    .rings{
+        @apply  ring ring-red-300 px-3 py-1 rounded-full transition-all hover:bg-black hover:text-white cursor-pointer ;
+    }
+
+    .job-flex{
+        @apply flex gap-5 md:gap-7 mb-8;
+    }
+    .job-p{
+     @apply text-sm md:text-xl flex gap-3 items-center ;
+    }
 }
