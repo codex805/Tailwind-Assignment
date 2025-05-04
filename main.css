@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer utilities{
+    .flexs{
+        @apply flex gap-4 items-center ;
+    }
+
+    .bg-border{
+        @apply bg-red-300 p-3 text-red-500 rounded-full ;
+    }
+
+    .text-size{
+        @apply text-lg md:text-xl font-medium ;
+    }
+}
