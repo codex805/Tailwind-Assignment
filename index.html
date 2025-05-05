@@ -89,24 +89,26 @@
     <div class="py-2">
         <h3 class="text-lg md:text-xl font-bold border-b md:border-b-4 border-[#F9CCC7] pb-3">Skills you will gain </h3>
       <div class="py-3 ">
-       <div class="flex gap-5">
+       <div class="flex gap-5 flex-col md:flex-row">
         
         <span class="rings">Debugging</span> <span class="rings">Customer Service</span> <span class="rings">Customer Support</span><br>
       
        </div>
-        <div class="flex gap-5 py-5">
+        <div class="flex gap-5 py-5 hidden md:block">
             <span class="rings">Domain Name System (DNS)</span> <span class="rings"></i>>Network Model</span> <span class="rings">Linux</span><br>
         </div>
-        <span class="rings">Encryption Algorithms and Techniques</span> <span class="rings"></i>>Network Protocols</span><br>
-        <div class="flex gap-5 py-5">
-            <span class="rings">Ipv4</span> <span class="rings">Troubleshooting</span> <span class="rings">Binary Code</span> <span class="rings">Cloud Computing</span>
+       <div class="flex gap-5 flex-col md:flex-row">
+        <span class="rings">Encryption Algorithms and Techniques</span> <span class="rings "> Network Protocols</span></i>
+       </div>
+        <div class="flex gap-5 py-5 flex-col md:flex-row hidden md:block">
+            <span class="rings">Ipv4</span> <span class="rings">Troubleshooting</span> <span class="rings">Binary </span> <span class="rings">Cloud Computing</span>
         </div>
       </div>
     </div>
    </div>
  </section>
   <!--job section-->
-  <section class="p-[30px] md:p-[100px] grid grid-flow-row md:grid-flow-col gap-4 md:gap-6 ">
+  <section class="p-[30px] md:p-[100px] grid grid-flow-row md:grid-flow-col gap-4 md:gap-6 md:mt-0 mt-12">
     <div class="col-span-6  shadow-xl  px-16 rounded-xl ">
         <h3 class="font-semibold text-lg md:text-xl pb-5 border-b border-[#F9CCC7] md:border-b-4">Jobs Assocaited with Certificate </h3>
        <div class="my-3 md:my-5">
@@ -155,45 +157,236 @@
   </section>
 
   <!--Course 1  section-->
-  <section class="grid p-[100px] gap-2 grid-flow-row md:grid-flow-col shadow-xl ">
-    <!--cards-->
-    <div class="col-span-12 md:col-span-1 bg-[#2D3142]  rounded p-10 md:p-3 relative">
-        <span class="text-[#00FF84] text-lg">Course 1 </span>
-        <p class="py-3 text-white text-[30px] md:text-[40px]">Technical<br> Support<br> Fundamentals </p>
-        <div class="flex justify-around py-3 items-center">
-            <span class="text-[#00FF84] text-lg">132,411 ratings</span>
-            <span class="flex items-center text-xl text-[#FFCB45]"><img src="assets/Stars.png" alt="">4.8</span>
+  <section class="relative mb-0 md:mb-44">
+    <section class="grid p-[100px] gap-2 grid-flow-row md:grid-flow-col  w-[100%]">
+        <!--cards-->
+        <div class="col-span-12 md:col-span-1 bg-[#2D3142]  rounded p-10 md:p-3 relative shadow-xl">
+            <span class="text-[#00FF84] text-lg">Course 1 </span>
+            <p class="py-3 text-white text-[30px] md:text-[40px]">Technical<br> Support<br> Fundamentals </p>
+            <div class="flex justify-around py-3 items-center">
+                <span class="text-[#00FF84] text-lg">132,411 ratings</span>
+                <span class="flex items-center text-xl text-[#FFCB45]"><img src="assets/Stars.png" alt="">4.8</span>
+            </div>
+            <div class="py-4 gap-4 flex">
+                <button class="bg-[#F44335] px-6 py-2 text-[#ffff] rounded-lg transition-all hover:bg-black hover:text-white cursor-pointer">Sign Up</button>
+                <button class="bg-[#ffff] px-6 py-2 text-[#000000] rounded-lg  hover:bg-black hover:text-white cursor-pointer">Next</button>
+            </div>
+            <p class="absolute bottom-12 pr-5 w-[100%] text-white hidden md:block">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
         </div>
-        <div class="py-4 gap-4 flex">
-            <button class="bg-[#F44335] px-6 py-2 text-[#ffff] rounded-lg transition-all hover:bg-black hover:text-white cursor-pointer">Sign Up</button>
-            <button class="bg-[#ffff] px-6 py-2 text-[#000000] rounded-lg  hover:bg-black hover:text-white cursor-pointer">Next</button>
+        <!--end-->
+        <div  class="col-span-12 md:col-span-9 p-10 md:p-3 rounded shadow-xl">
+            <span class="text-[#F9CCC7] text-2xl">About this course</span>
+            <p class="py-1 w-[100%]">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+            <div class="py-5 md:py-10 ">
+                <h3 class="text-[#F9CCC7] text-2xl">What you will learn </h3>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+            </div>
+            <h3  class="py-2 text-[#F9CCC7] text-2xl">Skills you will gain </h3>
+            <div class="flex py-1 md:py-3 flex-col gap-4 md:flex-row">
+                <span class="rings">Binary Code</span> <span class="rings"></i>Troubleshooting</span> <span class="rings">Customer Support</span> <span class="rings">Linux</span>
+            </div>
+            <h3 class="py-2 md:py-10 text-[#f9ccc7] text-2xl">Information </h3>
+            <p class="text-lg  py-1">FFlexible deadlines</p>
+            <p class="text-lg  py-1">sShareable Certificate</p>
+            <p class="text-lg  py-1">1 100% online</p>
+            <p class="text-lg  py-1">BBeginner Level</p>
+            <p class="text-lg  py-1">AApprox. 20 hours to complete</p>
         </div>
-        <p class="absolute bottom-12 pr-5 w-[100%] text-white">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
-    </div>
-    <!--end-->
-    <div  class="col-span-12 md:col-span-9 p-10 md:p-3 rounded">
-        <span class="text-[#F9CCC7] text-2xl">About this course</span>
-        <p class="py-1 ">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
-        <div class="py-5 md:py-10 ">
-            <h3 class="text-[#F9CCC7] text-2xl">What you will learn </h3>
-            <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
-            <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
-            <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
-            <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
-            <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
-            <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+      </section>
+      <img src="assets/sap(1).png" alt="" class="absolute left-20 w-[900px] bottom-[-180px] hidden md:block">
+  </section>
+
+   <!--Course 2  section-->
+   <section class="relative  mb-0 md:mb-44">
+    <section class="grid p-[100px] gap-2 grid-flow-row md:grid-flow-col  w-[100%]">
+        <!--cards-->
+        <div class="col-span-12 md:col-span-1 bg-[#2D3142]  rounded p-10 md:p-3 relative shadow-xl">
+            <span class="text-[#00FF84] text-lg">Course 2  </span>
+            <p class="py-3 text-white text-[30px] md:text-[40px]">The Bits <br>and Bytes of<br> Computer Networking
+
+            </p>
+            <div class="flex justify-around py-3 items-center">
+                <span class="text-[#00FF84] text-lg">132,411 ratings</span>
+                <span class="flex items-center text-xl text-[#FFCB45]"><img src="assets/Stars.png" alt="">4.8</span>
+            </div>
+            <div class="py-4 gap-4 flex">
+                <button class="bg-[#F44335] px-6 py-2 text-[#ffff] rounded-lg transition-all hover:bg-black hover:text-white cursor-pointer">Sign Up</button>
+                <button class="bg-[#ffff] px-6 py-2 text-[#000000] rounded-lg  hover:bg-black hover:text-white cursor-pointer">Next</button>
+            </div>
+            <p class="absolute bottom-12 pr-5 w-[100%] text-white hidden md:block">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career.  </p>
         </div>
-        <h3  class="py-2 text-[#F9CCC7] text-2xl">Skills you will gain </h3>
-        <div class="flex py-1 md:py-3 flex-col gap-4 md:flex-row">
-            <span class="rings">Binary Code</span> <span class="rings"></i>Troubleshooting</span> <span class="rings">Customer Support</span> <span class="rings">Linux</span>
+        <!--end-->
+        <div  class="col-span-12 md:col-span-9 p-10 md:p-3 rounded shadow-xl">
+            <span class="text-[#F9CCC7] text-2xl">About this course</span>
+            <p class="py-1 w-[100%]">This course is designed to provide a full overview of computer networking. We’ll cover everything from the fundamentals of modern networking technologies and protocols to an overview of the cloud to practical applications and network troubleshooting. </p>
+            <div class="py-5 md:py-10 ">
+                <h3 class="text-[#F9CCC7] text-2xl">What you will learn </h3>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+            </div>
+            <h3  class="py-2 text-[#F9CCC7] text-2xl">Skills you will gain </h3>
+            <div class="flex py-1 md:py-3 flex-col gap-4 md:flex-row">
+                <span class="rings">Binary Code</span> <span class="rings"></i>Troubleshooting</span> <span class="rings">Customer Support</span> <span class="rings">Linux</span>
+            </div>
+            <h3 class="py-2 md:py-10 text-[#f9ccc7] text-2xl">Information </h3>
+            <p class="text-lg  py-1">FFlexible deadlines</p>
+            <p class="text-lg  py-1">sShareable Certificate</p>
+            <p class="text-lg  py-1">1 100% online</p>
+            <p class="text-lg  py-1">BBeginner Level</p>
+            <p class="text-lg  py-1">AApprox. 20 hours to complete</p>
         </div>
-        <h3 class="py-2 md:py-10 text-[#f9ccc7] text-2xl">Information </h3>
-        <p class="text-lg  py-1">FFlexible deadlines</p>
-        <p class="text-lg  py-1">sShareable Certificate</p>
-        <p class="text-lg  py-1">1 100% online</p>
-        <p class="text-lg  py-1">BBeginner Level</p>
-        <p class="text-lg  py-1">AApprox. 20 hours to complete</p>
-    </div>
+      </section>
+      <img src="assets/Connector Vector (2).png" alt="" class="absolute left-20 w-[900px] bottom-[-180px] hidden md:block">
+  </section>
+
+   <!--Course 1  section-->
+   <section class="relative  mb-0 md:mb-44">
+    <section class="grid p-[100px] gap-2 grid-flow-row md:grid-flow-col  w-[100%]">
+        <!--cards-->
+        <div class="col-span-12 md:col-span-1 bg-[#2D3142]  rounded p-10 md:p-3 relative shadow-xl">
+            <span class="text-[#00FF84] text-lg">Course 3 </span>
+            <p class="py-3 text-white text-[25px] md:text-[35px]">Operating <br>Systems and<br> You: Becoming<br> a Power User
+
+            </p>
+            <div class="flex justify-around py-3 items-center">
+                <span class="text-[#00FF84] text-lg">132,411 ratings</span>
+                <span class="flex items-center text-xl text-[#FFCB45]"><img src="assets/Stars.png" alt="">4.8</span>
+            </div>
+            <div class="py-4 gap-4 flex">
+                <button class="bg-[#F44335] px-6 py-2 text-[#ffff] rounded-lg transition-all hover:bg-black hover:text-white cursor-pointer">Sign Up</button>
+                <button class="bg-[#ffff] px-6 py-2 text-[#000000] rounded-lg  hover:bg-black hover:text-white cursor-pointer">Next</button>
+            </div>
+            <p class="absolute bottom-12 pr-5 w-[100%] text-white hidden md:block">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career.  </p>
+        </div>
+        <!--end-->
+        <div  class="col-span-12 md:col-span-9 p-10 md:p-3 rounded shadow-xl">
+            <span class="text-[#F9CCC7] text-2xl">About this course</span>
+            <p class="py-1 w-[100%]">In this course -- through a combination of video lectures, demonstrations, and hands-on practice -- you’ll learn about the main components of an operating system and how to perform critical tasks like managing software and users, and configuring hardware. 
+
+            </p>
+            <div class="py-5 md:py-10 ">
+                <h3 class="text-[#F9CCC7] text-2xl">What you will learn </h3>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+            </div>
+            <h3  class="py-2 text-[#F9CCC7] text-2xl">Skills you will gain </h3>
+            <div class="flex py-1 md:py-3 flex-col gap-4 md:flex-row">
+                <span class="rings">Binary Code</span> <span class="rings"></i>Troubleshooting</span> <span class="rings">Customer Support</span> <span class="rings">Linux</span>
+            </div>
+            <h3 class="py-2 md:py-10 text-[#f9ccc7] text-2xl">Information </h3>
+            <p class="text-lg  py-1">FFlexible deadlines</p>
+            <p class="text-lg  py-1">sShareable Certificate</p>
+            <p class="text-lg  py-1">1 100% online</p>
+            <p class="text-lg  py-1">BBeginner Level</p>
+            <p class="text-lg  py-1">AApprox. 20 hours to complete</p>
+        </div>
+      </section>
+      <img src="assets/sap(1).png" alt="" class="absolute left-20 w-[900px] bottom-[-180px] hidden md:block">
+  </section>
+
+   <!--Course 1  section-->
+   <section class="relative  mb-0 md:mb-44">
+    <section class="grid p-[100px] gap-2 grid-flow-row md:grid-flow-col  w-[100%]">
+        <!--cards-->
+        <div class="col-span-12 md:col-span-1 bg-[#2D3142]  rounded p-10 md:p-3 relative shadow-xl">
+            <span class="text-[#00FF84] text-lg">Course 4 </span>
+            <p class="py-3 text-white text-[30px] md:text-[40px]">System <br>Administration<br> and IT <br>Infrastructure Services </p>
+            <div class="flex justify-around py-3 items-center">
+                <span class="text-[#00FF84] text-lg">132,411 ratings</span>
+                <span class="flex items-center text-xl text-[#FFCB45]"><img src="assets/Stars.png" alt="">4.8</span>
+            </div>
+            <div class="py-4 gap-4 flex">
+                <button class="bg-[#F44335] px-6 py-2 text-[#ffff] rounded-lg transition-all hover:bg-black hover:text-white cursor-pointer">Sign Up</button>
+                <button class="bg-[#ffff] px-6 py-2 text-[#000000] rounded-lg  hover:bg-black hover:text-white cursor-pointer">Next</button>
+            </div>
+            <p class="absolute bottom-12 pr-5 w-[100%] text-white hidden md:block">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career.  </p>
+        </div>
+        <!--end-->
+        <div  class="col-span-12 md:col-span-9 p-10 md:p-3 rounded shadow-xl">
+            <span class="text-[#F9CCC7] text-2xl">About this course</span>
+            <p class="py-1 w-[100%]">This course will transition you from working on a single computer to an entire fleet. Systems administration is the field of IT that’s responsible for maintaining reliable computers systems in a multi-user environment. In this course, you’ll learn about the infrastructure services that keep all organizations, big and small, up and running. We’ll deep dive on cloud so that you’ll understand everything from typical cloud infrastructure setups to how to manage cloud resources. You'll also learn how to manage and configure servers and how to use industry tools to manage computers, user information, and user productivity. Finally, you’ll learn how to recover your organization’s IT infrastructure in the event of a disaster.
+
+            </p>
+            <div class="py-5 md:py-10 ">
+                <h3 class="text-[#F9CCC7] text-2xl">What you will learn </h3>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+            </div>
+            <h3  class="py-2 text-[#F9CCC7] text-2xl">Skills you will gain </h3>
+            <div class="flex py-1 md:py-3 flex-col gap-4 md:flex-row">
+                <span class="rings">Binary Code</span> <span class="rings"></i>Troubleshooting</span> <span class="rings">Customer Support</span> <span class="rings">Linux</span>
+            </div>
+            <h3 class="py-2 md:py-10 text-[#f9ccc7] text-2xl">Information </h3>
+            <p class="text-lg  py-1">FFlexible deadlines</p>
+            <p class="text-lg  py-1">sShareable Certificate</p>
+            <p class="text-lg  py-1">1 100% online</p>
+            <p class="text-lg  py-1">BBeginner Level</p>
+            <p class="text-lg  py-1">AApprox. 20 hours to complete</p>
+        </div>
+      </section>
+      <img src="assets/sap(1).png" alt="" class="absolute left-20 w-[900px] bottom-[-180px] hidden md:block">
+  </section>
+
+   <!--Course 1  section-->
+   <section class="relative  mb-0 md:mb-44">
+    <section class="grid p-[100px] gap-2 grid-flow-row md:grid-flow-col  w-[100%]">
+        <!--cards-->
+        <div class="col-span-12 md:col-span-1 bg-[#2D3142]  rounded p-10 md:p-3 relative shadow-xl">
+            <span class="text-[#00FF84] text-lg">Course 1 </span>
+            <p class="py-3 text-white text-[30px] md:text-[40px]">Technical<br> Support<br> Fundamentals </p>
+            <div class="flex justify-around py-3 items-center">
+                <span class="text-[#00FF84] text-lg">132,411 ratings</span>
+                <span class="flex items-center text-xl text-[#FFCB45]"><img src="assets/Stars.png" alt="">4.8</span>
+            </div>
+            <div class="py-4 gap-4 flex">
+                <button class="bg-[#F44335] px-6 py-2 text-[#ffff] rounded-lg transition-all hover:bg-black hover:text-white cursor-pointer">Sign Up</button>
+                <button class="bg-[#ffff] px-6 py-2 text-[#000000] rounded-lg  hover:bg-black hover:text-white cursor-pointer">Next</button>
+            </div>
+            <p class="absolute bottom-12 pr-5 w-[100%] text-white hidden md:block">When you complete all of the courses in the program, you'll earn a Certificate to share with your professional network as well as unlock access to career support resources to help you kickstart your new career. </p>
+        </div>
+        <!--end-->
+        <div  class="col-span-12 md:col-span-9 p-10 md:p-3 rounded shadow-xl">
+            <span class="text-[#F9CCC7] text-2xl">About this course</span>
+            <p class="py-1 w-[100%]">This course is the first of a series that aims to prepare you for a role as an entry-level IT Support Specialist. In this course, you’ll be introduced to the world of Information Technology, or IT. You’ll learn about the different facets of Information Technology, like computer hardware, the Internet, computer software, troubleshooting, and customer service. This course covers a wide variety of topics in IT that are designed to give you an overview of what’s to come in this certificate program.</p>
+            <div class="py-5 md:py-10 ">
+                <h3 class="text-[#F9CCC7] text-2xl">What you will learn </h3>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+                <div class="flexs py-3"><i class="fa-solid fa-check bg-border"></i> <p class="text-size">Gain skills required to succeed in an entry-level IT job</p></div>
+            </div>
+            <h3  class="py-2 text-[#F9CCC7] text-2xl">Skills you will gain </h3>
+            <div class="flex py-1 md:py-3 flex-col gap-4 md:flex-row">
+                <span class="rings">Binary Code</span> <span class="rings"></i>Troubleshooting</span> <span class="rings">Customer Support</span> <span class="rings">Linux</span>
+            </div>
+            <h3 class="py-2 md:py-10 text-[#f9ccc7] text-2xl">Information </h3>
+            <p class="text-lg  py-1">FFlexible deadlines</p>
+            <p class="text-lg  py-1">sShareable Certificate</p>
+            <p class="text-lg  py-1">1 100% online</p>
+            <p class="text-lg  py-1">BBeginner Level</p>
+            <p class="text-lg  py-1">AApprox. 20 hours to complete</p>
+        </div>
+      </section>
+      <img src="assets/sap(1).png" alt="" class="absolute left-20 w-[900px] bottom-[-180px] hidden md:block">
   </section>
 </body>
 </html>
