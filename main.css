@@ -29,4 +29,12 @@
     .tag{
         @apply text-lg border border-black p-3 md:px-7 md:py-1 text-center rounded-lg transition-all hover:bg-[#00FF84] uppercase cursor-pointer;
     }
+
+    .footer-text{
+        @apply text-gray-700 font-bold text-xl py-3 ;
+    }
+
+    .text{
+        @apply text-gray-500 text-lg ;
+    }
 }
