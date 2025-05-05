@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en" class="dark">
+<html lang="en" class="dark" id="htmlTag">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
     <link rel="stylesheet" href="main.css">
     <title>tailwind-Assignment</title>
+  
 </head>
-<body class="  bg-[#FAFAFA]">
+<body class="   bg-white text-black dark:bg-gray-900 dark:text-white">
    <!---header strat-->
    <header class=" shadow-sm p-1 md:p-3">
     <nav class="flex justify-between items-center">
@@ -20,7 +21,7 @@
          </ul>
             <div class="flex gap-2 md:gap-4 items-center">
                 <button class="bg-[#F44335] p-1 md:p-3 rounded-xl text-white transition-all hover:bg-red-600">Register Interest</button>
-                <img src="assets/moon.png" alt="" class="w-[29px] h-[29px] md:w-[35px] md:h-[35px]">
+                <img src="assets/moon.png" alt="" class="w-[29px] h-[29px] md:w-[35px] md:h-[35px] switch cursor-pointer">
               </div>
     </nav>
    </header>
@@ -134,8 +135,8 @@
             </div> 
        </div>
     </div>
-    <div >
-        <img src="assets/job.png" alt="" class=" object-cover" >
+    <div class="hidden md:block">
+        <img src="assets/job.png" alt="" class="" >
     </div>
   </section>
 
@@ -456,5 +457,14 @@
     </div>
     <div class="text-center  border-t mt-10 border-gray-500"><p class="mt-4">Copyright 2022 Creatives For You LTD</p></div>
   </footer>
+
+
+
+  <script>
+    const htmlTag = document.getElementById("htmlTAg");
+    document.getElementById("switch").addEventListener("click", function(){
+        htmlTag.classList.toggle("dark");
+    });
+  </script>
 </body>
 </html>
