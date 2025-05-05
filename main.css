@@ -27,7 +27,7 @@
     }
 
     .tag{
-        @apply text-lg border border-black p-3 md:px-7 md:py-1 text-center rounded-lg transition-all hover:bg-[#00FF84] uppercase cursor-pointer;
+        @apply text-[17px] border border-black p-2 md:px-7 md:py-1 text-center rounded-lg transition-all hover:bg-[#00FF84] uppercase cursor-pointer;
     }
 
     .footer-text{
