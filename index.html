@@ -8,7 +8,7 @@
     <title>tailwind-Assignment</title>
   
 </head>
-<body class="   bg-white text-black dark:bg-gray-900 dark:text-white">
+<body class="bg-[#fafafafa]  dark:bg-gray-900">
    <!---header strat-->
    <header class=" shadow-sm p-1 md:p-3">
     <nav class="flex justify-between items-center">
@@ -21,7 +21,7 @@
          </ul>
             <div class="flex gap-2 md:gap-4 items-center">
                 <button class="bg-[#F44335] p-1 md:p-3 rounded-xl text-white transition-all hover:bg-red-600">Register Interest</button>
-                <img src="assets/moon.png" alt="" class="w-[29px] h-[29px] md:w-[35px] md:h-[35px] switch cursor-pointer">
+                <img src="assets/moon.png" alt="" class="w-[29px] h-[29px] md:w-[35px] md:h-[35px]  cursor-pointer" id="switch">
               </div>
     </nav>
    </header>
@@ -460,10 +460,11 @@
 
 
 
+ 
   <script>
-    const htmlTag = document.getElementById("htmlTAg");
-    document.getElementById("switch").addEventListener("click", function(){
-        htmlTag.classList.toggle("dark");
+    const htmlTag = document.getElementById("htmlTag");
+    document.getElementById("switch").addEventListener("click", function () {
+      htmlTag.classList.toggle("dark");
     });
   </script>
 </body>
